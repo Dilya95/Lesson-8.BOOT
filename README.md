@@ -86,7 +86,7 @@ root@otus-homework:/boot/grub# ls /dev/mapper/
 control  ubuntu--vg-ubuntu--lv
 ```
 
-Переименовываю LVM и меняю везде и проверяю:
+Переименовываю LVM, меняю везде и проверяю:
 ```
 root@otus-homework:/boot/grub# vgrename ubuntu-vg ubuntu-otus
   Volume group "ubuntu-vg" successfully renamed to "ubuntu-otus"
